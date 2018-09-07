@@ -1,15 +1,20 @@
 {
   "name": "ngx-skycons",
   "version": "0.0.0",
+  "description": "Angular component to display skycons",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andipaetzold/ngx-skycons.git"
+  },
+  "author": "Andreas Pätzold",
+  "license": "MIT",
   "scripts": {
-    "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",
