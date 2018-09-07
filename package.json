@@ -10,10 +10,17 @@
   "license": "MIT",
   "scripts": {
     "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
+    "test-ci": "ng test --watch=false",
+    "build": "ng build",
+    "build:lib": "ng-packagr",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push --follow-tags"
   },
   "dependencies": {
     "@angular/animations": "6.1.7",
