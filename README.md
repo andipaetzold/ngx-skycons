@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/andipaetzold/ngx-skycons/tree/master.svg?style=svg)](https://circleci.com/gh/andipaetzold/ngx-skycons/tree/master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/066028f5d3682eed82b8/maintainability)](https://codeclimate.com/github/andipaetzold/ngx-skycons/maintainability)
+
 # NgxSkycons
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
