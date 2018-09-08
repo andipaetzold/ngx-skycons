@@ -6,7 +6,7 @@
     "ngx-skycons": {
       "root": "",
       "sourceRoot": "src",
-      "projectType": "application",
+      "projectType": "library",
       "schematics": {},
       "targets": {
         "build": {
